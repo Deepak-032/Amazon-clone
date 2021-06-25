@@ -1,0 +1,87 @@
+.login_logo{
+    width: 100px;
+    object-fit: contain;
+    padding-top: 14px;
+    margin-bottom: 18px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* height: 100vh; */
+    align-items: center;
+}
+.login_container{
+    width: 300px;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 3px;
+    padding: 20px 26px!important;
+}
+.login_container>h1{
+    font-weight: 400;
+    padding-bottom: 14px;
+}
+.login_container button{
+    width: 100%;
+    cursor: pointer;
+    padding: 6px 7px;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #f0c14b;
+    border: 1px solid;
+    border-color: #a88734 #9c7e31 #846a29;
+    margin: 10px 0 15px;
+}
+.login_container input{
+    width: 95%;
+    padding: 3px 7px;
+    margin: 5px 0 10px;
+    height: 23px;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgb(255 255 255 / 50%), 0 1px 0 rgb(0 0 0 / 7%) inset;
+}
+.login_container input:focus{
+    outline: none;
+    border-color: #e77600;
+    box-shadow: 0 0 3px 2px rgb(228 121 17 / 50%);
+}
+.login_container p span{
+    color: #0066c0;
+}
+.login_container p{
+    font-size: 12px;
+    /* font-weight: 500; */
+}
+.create_account{
+    margin: 15px 0;
+    text-align: center;
+}
+.create_account>h6{
+    position: relative;
+    display: inline;
+    padding: 0 5px;
+    background-color: white !important;
+    z-index: 2;
+    color: rgb(114, 113, 113);
+    font-weight: 400;
+    font-size: 12px;
+}
+.create_account>h6~div{
+    border-bottom: 1px solid rgb(230, 230, 230);
+    margin-bottom: 10px;
+    width: 352px;
+    position: relative;
+    bottom: 9px;
+    z-index: 1;
+}
+.create_account>button{
+    width: 100%;
+    cursor: pointer;
+    padding: 6px 7px;
+    font-size: 14px;
+    border-width: 1px;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
